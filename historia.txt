@@ -27,5 +27,9 @@ git fetch - permite traer una actualización de un repositorio remoto al reposit
 git merge - copia la última versión del repositorio local en el directorio de trabajo.
 git pull - fusiona los comandos de fetch y merge.
 
+*Siempre que se va a hacer un merge de dos braches, se debe hacer desde la rama master, o 
+desde la rama a la que queremos fusionar los cambios que se hicieron en la rama
+paralela.
+
 
 Puedes seguir agregando más comandos. Por favor no olvides guardar el documento.
