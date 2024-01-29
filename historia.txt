@@ -17,4 +17,4 @@ git commit - envía los cambios del archivo al repositorio sin comentarios.
 git commit -m "  " - Envía los cambios del documento al repositorio con comentarios.
 git log - Permite ver el historial de cambios de un documento.
 
-Puedes seguir agregando más comandos.
+Puedes seguir agregando más comandos. Por favor no olvides guardar el documento.
