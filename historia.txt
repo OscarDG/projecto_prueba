@@ -1,4 +1,4 @@
-Este es mi primer archivo plano.
+Listado de comandos:
 
 cd - Permite navegar en las diferentes carpetas.
 cwd - permite ver la carpeta en la que me encuentro actualmente.
