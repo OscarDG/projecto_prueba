@@ -1,1 +1,19 @@
 Este es mi primer archivo plano.
+
+cd - Permite navegar en las diferentes carpetas.
+cwd - permite ver la carpeta en la que me encuentro actualmente.
+cd .. - permite volver a la carpeta anterior.
+rm - permite eliminar un archivo/ OJO hay que mencionar el nombre del
+     archivo a eliminar.
+cd --help - Permite ver una descripcíon del comando antes del "--help"
+ls - permite enlistar los archivos dentro de una carpeta.
+git init - permite iniciar la carpeta Git.
+git status - permite conocer el status del repositorio Git.
+git add - permite añadir un documento al repositorio para ser trackeado.
+git config - permite configurar el entorno de trabajo en Git.
+git config --global user.name "  " - Permite configurar el usuario.
+git config --global user.email "  " - Permite configurar el correo.
+git commit - envía los cambios del archivo al repositorio sin comentarios.
+git commit -m "  " - Envía los cambios del documento al repositorio con comentarios.
+git log - Permite ver el historial de cambios de un documento.
+
