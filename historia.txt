@@ -16,5 +16,7 @@ git config --global user.email "  " - Permite configurar el correo.
 git commit - envía los cambios del archivo al repositorio sin comentarios.
 git commit -m "  " - Envía los cambios del documento al repositorio con comentarios.
 git log - Permite ver el historial de cambios de un documento.
+git diff - permite ver la diferencia entre dos versionas. hay que copiar los
+           códigos de cada commit separados de un espacio.
 
 Puedes seguir agregando más comandos. Por favor no olvides guardar el documento.
