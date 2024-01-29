@@ -20,6 +20,8 @@ git diff - permite ver la diferencia entre dos versionas. hay que copiar los
            códigos de cada commit separados de un espacio.
 git reset --hard - Resetea el documento a la versión indicada.
 git reset --soft - Resetea el documento a la versión indicada pero deja los cambios en Staging disponibles.
+git checkout - permite volver a una versión de un documento ingresando el código del commit.
+git checkout master - permite volver a la versión master de un documento.
 
 
 Puedes seguir agregando más comandos. Por favor no olvides guardar el documento.
