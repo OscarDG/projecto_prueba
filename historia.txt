@@ -45,3 +45,43 @@ ssh-keygen -t rsa -b 4096 -C "oscard.guerrerom@outlook.com"
      buscar la carpeta en la que se guardó la llave.
 5. Estando en la carpeta se ingresa el siguiente comando:
      ssh-add ~/.ssh/id_rsa
+6. En Github se crea un nuevo repositorio.
+7. En la configuración de GitHub ir a SHH and GPG Keys. Alli se crea la llave pública agregando 
+   el texto del documento id_rsa.pub
+
+* Clonar un repositorio en entorno local:
+
+1. En github, copiar el link del repositorio.
+2. en GitBash, estando en la carpeta del proyecto, clonar el
+   repositorio remoto con el siguiente comando:
+   git remote add origin https://github.com/OscarDG/projecto_prueba.git
+3. verificar que se ha creado con el comando - git remote. Al dar enter
+   debe aparecer la palabra "origin".
+4. al correr el comando git origin -v, aparece la dirección del origin
+   para hacer fetch y push al repositorio remoto.
+
+* Otra forma de mostrar historia con gráfico de branches en Git GitBash
+
+1. agregar comando git log --all --graph
+2. agregar comando git log --all --graph --decorate --oneline
+3. para crear un alias más corto del comando puedo:
+     * alias arbol="git log --all --graph --decorate --oneline"
+
+* Crear un tag en el proyecto:
+
+1. Copiar el HASH del commit en el que se quiere crear el tag.
+2. para crear el tag se usa el comando:
+     git tag -a v0.1 -m "Versión final del documento History" 1cea8a8 (el número al final es el hash)
+3. para revisar los tags existentes se usa el comando:
+     git tag
+4. Para revisar a qué hash/commit está conectado un tag se usa el comando:
+     git show-ref --tags
+5. Para enviar al repositorio en GitHub los tags se usa el comando:
+     git push origin --tags
+6. para eliminar un tag errado uso el comando:
+     git tag -d nombredeltag
+7. Hacer push nuevamente de los tags existentes a GitHub
+8. para borrar el tag definitivamente de Github se usa el comando:
+     git push origin :refs/tags/nombredeltag
+
+
