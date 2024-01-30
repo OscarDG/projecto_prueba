@@ -2,6 +2,7 @@ Listado de comandos:
 
 cd - Permite navegar en las diferentes carpetas.
 cwd - permite ver la carpeta en la que me encuentro actualmente.
+pwd - me muestra el path de la carpeta en la que estoy.
 cd .. - permite volver a la carpeta anterior.
 rm - permite eliminar un archivo/ OJO hay que mencionar el nombre del
      archivo a eliminar.
@@ -31,5 +32,16 @@ git pull - fusiona los comandos de fetch y merge.
 desde la rama a la que queremos fusionar los cambios que se hicieron en la rama
 paralela.
 
+* LLaves públicas y Privadas:
 
-Puedes seguir agregando más comandos. Por favor no olvides guardar el documento.
+1. Configurar llave SSH -
+
+ssh-keygen -t rsa -b 4096 -C "oscard.guerrerom@outlook.com"
+
+2. Abrir la carpeta en la que se guardan las llaves pública y privada.
+3. Revisar que el servidor SSH esté encendido.
+     * eval $(ssh-agent -s)
+4. Agregar la llave al servidor.
+     buscar la carpeta en la que se guardó la llave.
+5. Estando en la carpeta se ingresa el siguiente comando:
+     ssh-add ~/.ssh/id_rsa
