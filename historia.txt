@@ -84,4 +84,12 @@ ssh-keygen -t rsa -b 4096 -C "oscard.guerrerom@outlook.com"
 8. para borrar el tag definitivamente de Github se usa el comando:
      git push origin :refs/tags/nombredeltag
 
+* Versión visual de la historia del proyecto:
+
+1. Usar comando gitk
+
+* Unirse a un repositorio en GitHub que ya existe:
+
+1. Comando git clone "link del repositorio"
+
 
