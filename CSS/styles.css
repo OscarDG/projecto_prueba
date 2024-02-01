@@ -43,11 +43,22 @@ body{
     font-size: 20px;
 }
 
+<<<<<<< HEAD
 #tagline{
     padding: 0 0 0 1em;
     font-weight: 400;
     font-size: .8em;
 }
+=======
+#footer{
+    text-align: center;
+    background: gray;
+    padding: .8em;
+    color:aliceblue;
+}
+
+#post{
+>>>>>>> footer
 
 #post{
     background: #fff;
