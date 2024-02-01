@@ -100,4 +100,6 @@ ssh-keygen -t rsa -b 4096 -C "oscard.guerrerom@outlook.com"
    antes de que se haga merge.
 
 2. Pull request es una característica exclusiva de GitHub.
+3. Quien verifica el proceso de Pull Request es el DevOps.
+
 
