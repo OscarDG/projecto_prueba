@@ -30,6 +30,13 @@ body{
     font-size: 20px;
 }
 
+#footer{
+    text-align: center;
+    background: gray;
+    padding: .8em;
+    color:aliceblue;
+}
+
 #post{
 
 }
