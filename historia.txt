@@ -91,3 +91,13 @@ ssh-keygen -t rsa -b 4096 -C "oscard.guerrerom@outlook.com"
 * Unirse a un repositorio en GitHub que ya existe:
 
 1. Comando git clone "link del repositorio"
+
+* Enviar información a un repositorio de desarrollo o "Staging"
+
+1. Se envían los cambios que se vienen haciendo en una branch al
+   repositorio de pruebas a traves de un "Pull Request". Permite que
+   otros miembros del equipo revisen los cambios y los aprueben
+   antes de que se haga merge.
+
+2. Pull request es una característica exclusiva de GitHub.
+
