@@ -91,5 +91,3 @@ ssh-keygen -t rsa -b 4096 -C "oscard.guerrerom@outlook.com"
 * Unirse a un repositorio en GitHub que ya existe:
 
 1. Comando git clone "link del repositorio"
-
-
