@@ -102,4 +102,13 @@ ssh-keygen -t rsa -b 4096 -C "oscard.guerrerom@outlook.com"
 2. Pull request es una característica exclusiva de GitHub.
 3. Quien verifica el proceso de Pull Request es el DevOps.
 
+* Agregar una fuente externa (repositorio) adicional con el que hacer fetch
+o pull desde la consola.
+
+1. con el comando git remote -v se revisa la cantidad de fuentes remotas desde las
+que se puede hacer fetch o pull.
+
+2. con el comando git remote add upstream "url del repositorio remoto", se agrega una
+fuente adicional.
+
 
